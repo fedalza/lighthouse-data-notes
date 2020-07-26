@@ -1,0 +1,16 @@
+PS C:\Users\Admin\Bootcamp\lighthouse-data-notes\Week_1\Day_5\assessment-exam-student-python> python start_exam.py -t 5ec863d9-b1a6-4ee1-9056-4b164d02fa91
+Contacting Server to Start Exam with token: 5ec863d9-b1a6-4ee1-9056-4b164d02fa91
+Server Response: 5 Questions:
+        Creating Question 00    (30 Points)     Answer file answers/question_00.py
+Traceback (most recent call last):
+  File "start_exam.py", line 19, in <module>
+    ExamLoader().load(token = args['exam_token'])
+  File "C:\Users\Admin\Bootcamp\lighthouse-data-notes\Week_1\Day_5\assessment-exam-student-python\lib\exam_loader.py", line 11, 
+in load
+    self.write_exam(json,token)
+  File "C:\Users\Admin\Bootcamp\lighthouse-data-notes\Week_1\Day_5\assessment-exam-student-python\lib\exam_loader.py", line 39, 
+in write_exam
+    f.write(code_content)
+  File "C:\Users\Admin\anaconda3\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u279e' in position 340: character maps to <undefined>
