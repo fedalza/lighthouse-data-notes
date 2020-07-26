@@ -1,0 +1,6 @@
+repo: 216b6346a39c6131fbac2dd21ed4e7896979087c
+node: 8de652d3f54cdfd32d5a493130c995f36e16c652
+branch: default
+latesttag: 3.7.15-SNAPSHOT-2-win-linux
+latesttagdistance: 36
+changessincelatesttag: 37
