@@ -1,0 +1,29 @@
+1. Duplicate "hp" column. Name it "hp_copy"
+
+2. Create frequency table (vertical) of unique values of "hp_copy" column
+
+3. Identify (create a list) which value to remove (freq = 2)
+
+4. Replace values to be removed (condition is freq == 2) with NA
+
+5. Check whether values are replaced with NA
+
+6. Count total number of missing values in column
+
+7. % of missing value for each column
+
+8. % of missing value in entire data
+
+9. % of missing values in each row
+
+10. Encode "vs" & "am" column to v-shaped and straight - engine types & automatic and manual transmission respectively
+
+11. Define DV
+
+12. Define Hypothesis
+
+13. Execute Multiple Regression without imputation
+
+14. Impute Missing Values
+
+15. Execute Multiple Regression with imputation
