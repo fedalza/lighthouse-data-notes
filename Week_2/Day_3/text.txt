@@ -1,2 +1,3 @@
-Whether it’s a full-time bootcamp or a part-time program, Lighthouse Labs offers coding education from newbie to professional developer. With the support of a brilliant team of instructors and mentors, you’ll be ready to translate concepts, break down problems, and continue learning on the job.
-Learning to code is one thing. Becoming a developer is a whole other ball-game. The goal of bootcamps at Lighthouse Labs is to take you from hobbyist to professional developer and be the launchpad for your career.
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb5718f1a4f02e5d0c551cd920bf2374454e0a37e7b1b464747a2c972676fcdc
+size 513
