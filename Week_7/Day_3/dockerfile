@@ -1,0 +1,20 @@
+FROM ubuntu
+
+RUN apt-get update #&& \
+#      apt-get -y install sudo
+
+#RUN apt-get install sudo
+
+#RUN sudo apt update -y
+
+RUN apt install -y python3-pip
+
+COPY . /app
+
+WORKDIR /app
+
+RUN pip3 install -r requirements.txt
+
+ENTRYPOINT ['python3']
+
+CMD ['docker_tutorial_app.py']
